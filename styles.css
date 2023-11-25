@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+#logox {
+    float:left;
+}
+
+#logoy {
+    float:right;  
+}
+
+#magasin {
+    clear: none;
+    display: inline-block;
+}
+
+nav {
+    background-color: #7ED7C1;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.text-zone {
+    border: 1px solid #7ED7C1;
+    padding: 10px;
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px;
+}
+
+table, th, td {
+    border: 1px solid #7ED7C1;
+}
+
+th {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+form {
+    margin: 20px;
+}
+
+.text-frame {
+    border: 1px solid #7ED7C1;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Couleurs spécifiques */
+a {
+    color: #DC8686;
+}
+
+.links a:hover {
+    color: #B06161;
+}
+
+/* Ajout des couleurs pour le formulaire */
+form {
+    background-color: #F0DBAF;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: #F0DBAF;
+    border: 1px solid #DC8686;
+}
+
+input[type="submit"] {
+    background-color: #DC8686;
+    color: #fff;
+}
